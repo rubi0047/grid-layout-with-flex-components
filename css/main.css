@@ -91,19 +91,17 @@ h1 {
 .emoji p {
     order: 3;
     line-height: 1.2;
-    text-align: left;
-    margin-top: 1px;
     margin-bottom: 15px;
 }
 
 .emoji a {
     order: 4;
+    margin-top: auto;
     background-color: #781baa;
     text-decoration: none;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-top: auto;
 }
 
 .emoji a:hover {
