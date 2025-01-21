@@ -55,13 +55,19 @@ body {
     padding: 2rem;
   }
   
-  .emojis {
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.emojis {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-  }
-  
-  .emoji {
+}
+
+.emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
@@ -69,41 +75,39 @@ body {
     flex-direction: column;
     text-align: left;
     position: relative;
-  }
-  
-  .emoji h2 {
+}
+
+.emoji h2 {
     order: 2;
     margin: 0.5px 0 16px 0;
     font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 2px solid #ccc;
-  }
-  
-  .icon {
+}
+
+.icon {
     order: 1;
     font-size: 4rem;
     text-align: center;
-  }
-  
-  .emoji p {
+}
+
+.emoji p {
     order: 3;
     line-height: 1.2;
     text-align: left;
     margin-top: 1px;
     margin-bottom: 50px;
-  }
-  
-  .emoji a {
+}
+
+.emoji a {
     order: 4;
-    text-decoration: none;
     background-color: #781baa;
+    text-decoration: none;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .emoji a:hover {
+}
+
+.emoji a:hover {
     background-color: #5a1281;
-  }  
+}  
