@@ -54,56 +54,56 @@ body {
     padding: 1rem;
   }
   
-h1 {
+  h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 25px;
-}
-
-.emojis {
+  }
+  
+  .emojis {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-}
-
-.emoji {
+  }
+  
+  .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-}
-
-.emoji h2 {
+    justify-content: space-between;
+  }
+  
+  .emoji h2 {
     order: 2;
     margin: 15px 0 16px 0;
     font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 2px solid #ccc;
-}
-
-.icon {
+  }
+  
+  .icon {
     order: 1;
     font-size: 4rem;
     text-align: center;
-}
-
-.emoji p {
+  }
+  
+  .emoji p {
     order: 3;
     line-height: 1.2;
     margin-bottom: 15px;
-}
-
-.emoji a {
+  }
+  
+  .emoji a {
     order: 4;
-    margin-top: auto;
     background-color: #781baa;
     text-decoration: none;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-}
-
-.emoji a:hover {
+  }
+  
+  .emoji a:hover {
     background-color: #5a1281;
-}  
+  }  
